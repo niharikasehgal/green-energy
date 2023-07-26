@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Sans-serif font for body text */
+  body {
+   max-width: 90%;
+   margin: auto;
+   font-family: 'Gotham', sans-serif;
+   line-height: 1.5;
+   background-color: #feeedb;
+  }
+  
+  /* Serif font for headings */
+  h1, h2 {
+    font-family: 'Merriweather';
+    color: #502c0b;
+  }
+
+  h3{
+    font-family: 'Merriweather';
+    font-style: italic;
+    color: #333;
+  }
+
+  p{
+    text-align: center;
+    color: #333;
+    font-family: 'Gotham', sans-serif;
+  }
+
+  header {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center; 
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center; 
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #502c0b;
+  }
+  
+  li a {
+    display: flex;
+    color: #ffffff;
+    padding: 25px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #e0bb26;
+    color: rgb(55, 55, 55);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #e0bb26;
+    color: #502c0b;;
+    padding: 25px;
+  }
+  
+  button {
+    background-color: #ffffff; 
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  /* Style for Solution Buttons */
+
+  .content-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  button {
+    padding: 1.5rem;
+    font-size: 1rem;
+    background-color: #502c0b;
+    color: #feeedb;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0px 0px 0px 5px;
+    margin-bottom: 3rem;
+  }
+
+  button:hover {
+    padding: 1.5rem;
+    font-size: 1rem;
+    background-color: #e0bb26;
+    color: #502c0b;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+  }
+  
+  button.active-button {
+    background-color: #b26615;
+  }
+  
+  .content {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+  
+  /* Style for Footer */
+
+  footer {
+    background-color: #e0bb26;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 80%;
+    text-align: center;
+    text-decoration: none;
+    margin: 35px;
+  }
+    
+  .fa:hover {
+    background: white;
+    color: #e0bb26;
+  }
+    
+  .fa-facebook {
+    background: #502c0b;
+    color: white;
+  }
+    
+  .fa-twitter {
+    background: #502c0b;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #502c0b;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #502c0b;
+    color: white;
+  }
+
+  
+  /*...........For Responsiveness.........*/
+
+  /* Mobile View */
+  @media screen and (max-width: 30rem) {
+    body {
+      font-size: 0.75rem;
+    }
+    .nav-buttons {
+      display: block;
+      justify-content: left;
+      text-align: left;
+    }
+  }
+  
+  /* Tablet and Desktop View */
+  @media screen and (min-width: 30.1rem) {
+    body {
+      font-size: 1rem;
+    }
+  }
+ 
+  
